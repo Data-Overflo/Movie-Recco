@@ -13,8 +13,8 @@ imdb = pd.read_csv('https://raw.githubusercontent.com/Makhambi/movies-data/main/
 imdb_data_budget = imdb['runtime'].to_list()
 ratings = pd.read_csv('resources/data/ratings.csv')
 movies = movies.dropna() 
-#@st.cache_data
-@st.cache
+@st.cache_data
+# @st.cache
 
 def get_base64_of_bin_file(bin_file):
         with open(bin_file, 'rb') as f:

@@ -42,12 +42,12 @@ def data_preprocessing(subset_size):
     # Transpose dataframe - movie title as column and genre as row
     genre = genre.transpose()  
     return genre
-#@st.cache_data
+
 
 
 # !! DO NOT CHANGE THIS FUNCTION SIGNATURE !!
 # You are, however, encouraged to change its content. 
-@st.cache 
+@st.cache_data
 def content_model(movie_list,top_n=10):
     """Performs Content filtering based upon a list of movies supplied
        by the app user.
