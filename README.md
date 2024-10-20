@@ -1,3 +1,16 @@
+---
+title: Movies Recommender
+emoji: 🎥
+colorFrom: blue
+colorTo: green
+sdk: streamlit
+sdk_version: "1.23.0"
+app_file: movie_recommender.py
+pinned: false
+---
+
+
+
 # Streamlit-based Recommender System
 
 
