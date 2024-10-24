@@ -25,8 +25,6 @@ import time
 # Data Loading
 title_list = load_movie_titles('https://raw.githubusercontent.com/Makhambi/movies-data/main/movies.csv')
 
-#Logo
-st.set_page_config(page_icon='resources/imgs/RecoXperTechnologies_Logo.png', page_title= 'RecoXperTechnologies', layout='wide', initial_sidebar_state='auto')
 
 over_theme = {'txc_inactive': '#FFFFFF'}
 
